@@ -229,7 +229,7 @@ document.addEventListener('DOMContentLoaded', function() {
         //Mini map for business detail
         if (document.getElementById('miniMap')) {
             const miniMap = new google.maps.Map(document.getElementById('miniMap'), {
-                center: { lat: -26.2675, lng: 27.8585 },
+                center: { lat: -26.524305, lng: 29.092136 },
                 zoom: 14,
                 disableDefaultUI: true
             });
