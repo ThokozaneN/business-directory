@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HustlersPortal | South African Small Businesses & Freelancers</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!--Navigation-->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Hustlers<span>Portal</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#businesses">Businesses</a>
+                <a href="#freelancers">Freelancers</a>
+                <a href="#about">About</a>
+                <a href="#" class="btn-login" id="loginBtn">Login</a>
+                <a href="#" class="btn-register" id="registerBtn">Register</a>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!--Hero-->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Discover & Support <span>Local Gems</span></h1>
+                <p class="hero-subtitle">Connecting communities with small businesses and freelancers across South Africa.</p>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search for businesses or services...">
+                    <button><i class="fas fa-search"></i> Search</button>
+                </div>
+                <div class="stats">
+                    <div class="stat-item">
+                        <h3>1,250+</h3>
+                        <p>Businesses</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>850+</h3>
+                        <p>Freelancers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>50+</h3>
+                        <p>Cities</p>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/vendor.png" alt="Local business">
+                <div class="floating-tag">Johannesburg</div>
+            </div>
+        </div>
+    </section>
+
+    <!--Categories-->
+    <section class="categories">
+        <div class="container">
+            <h2 class="section-title">Popular Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-utensils"></i>
+                    </div>
+                    <h3>Food & Dining</h3>
+                    <p>145 listings</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cut"></i>
+                    </div>
+                    <h3>Beauty & Salon</h3>
+                    <p>98 listings</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3>Tech Services</h3>
+                    <p>76 listings</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Home Services</h3>
+                    <p>112 listings</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-paint-brush"></i>
+                    </div>
+                    <h3>Creative Arts</h3>
+                    <p>64 listings</p>
+                </div>
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-dumbbell"></i>
+                    </div>
+                    <h3>Fitness</h3>
+                    <p>52 listings</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FeaturedBusinesses-->
+    <section class="featured-businesses" id="businesses">
+        <div class="container">
+            <h2 class="section-title">Featured Local Businesses</h2>
+            <div class="business-grid">
+                <!--Business Card 1-->
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="images/kota.jpg" alt="Business">
+                        <div class="rating">4.8 <i class="fas fa-star"></i></div>
+                    </div>
+                    <div class="business-info">
+                        <h3>Njabulo's Kitchen</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i> Embalenhle, Mpumalanga</p>
+                        <p class="description">Delicious South African home-cooked meals delivered to your door.</p>
+                        <div class="tags">
+                            <span>Food</span>
+                            <span>Delivery</span>
+                        </div>
+                    </div>
+                    <div class="business-footer">
+                        <a href="#" class="view-btn">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!--Business Card 2-->
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="images/barber.jpg" alt="Business">
+                        <div class="rating">4.9 <i class="fas fa-star"></i></div>
+                    </div>
+                    <div class="business-info">
+                        <h3>Nhlanhla Properties</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i>Soweto, Johannesburg</p>
+                        <p class="description">Offering stylish, fully-furnished homes for short or long stays.</p>
+                        <div class="tags">
+                            <span>Beauty</span>
+                            <span>Salon</span>
+                        </div>
+                    </div>
+                    <div class="business-footer">
+                        <a href="#" class="view-btn">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!--Business Card 3-->
+                <div class="business-card">
+                    <div class="business-image">
+                        <img src="images/comp.jpg" alt="Business">
+                        <div class="rating">4.7 <i class="fas fa-star"></i></div>
+                    </div>
+                    <div class="business-info">
+                        <h3>This Geek</h3>
+                        <p class="location"><i class="fas fa-map-marker-alt"></i>Secunda, Mpumalanga</p>
+                        <p class="description">Computer repairs, network setup and tech support at affordable rates.</p>
+                        <div class="tags">
+                            <span>Tech</span>
+                            <span>Repairs</span>
+                        </div>
+                    </div>
+                    <div class="business-footer">
+                        <a href="#" class="view-btn">View Details <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#" class="btn-view-all">View All Businesses</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Featured Freelancers-->
+    <section class="featured-freelancers" id="freelancers">
+        <div class="container">
+            <h2 class="section-title">Top Freelancers</h2>
+            <div class="freelancer-grid">
+                <!--Freelancer Card 1-->
+                <div class="freelancer-card">
+                    <div class="freelancer-image">
+                        <img src="images/caiphus.jpg" alt="Freelancer">
+                    </div>
+                    <div class="freelancer-info">
+                        <h3>Caiphus Medupe (DJ Digga)</h3>
+                        <p class="profession">Deep House DJ</p>
+                        <div class="skills">
+                            <span>Music Theory</span>
+                            <span>Remixing & Production</span>
+                            <span>Beatmatching</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>4.7 (32 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="freelancer-footer">
+                        <a href="#" class="view-btn">View Profile <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!--Freelancer Card 2-->
+                <div class="freelancer-card">
+                    <div class="freelancer-image">
+                        <img src="images/thokozane.jpg" alt="Freelancer">
+                    </div>
+                    <div class="freelancer-info">
+                        <h3>Thokozane Nxumalo</h3>
+                        <p class="profession">Web Developer</p>
+                        <div class="skills">
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>5.0 (45 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="freelancer-footer">
+                        <a href="#" class="view-btn">View Profile <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                
+                <!--Freelancer Card 3-->
+                <div class="freelancer-card">
+                    <div class="freelancer-image">
+                        <img src="images/nathi.jpg" alt="Freelancer">
+                    </div>
+                    <div class="freelancer-info">
+                        <h3>Nathi Malala</h3>
+                        <p class="profession">Software Engineer</p>
+                        <div class="skills">
+                            <span>Debugging & Testing</span>
+                            <span>Software Architecture</span>
+                            <span>Cloud & DevOps</span>
+                        </div>
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>4.2 (28 reviews)</span>
+                        </div>
+                    </div>
+                    <div class="freelancer-footer">
+                        <a href="#" class="view-btn">View Profile <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="#" class="btn-view-all">View All Freelancers</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Map Removed API for security reasons-->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Find Businesses Near You</h2>
+            <div class="map-container">
+                <div id="map"></div>
+                <div class="map-overlay">
+                    <h3>Explore Local Businesses</h3>
+                    <p>Discover amazing small businesses in your area</p>
+                    <button class="btn-locate"><i class="fas fa-location-arrow"></i> Use My Location</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Testimonials-->
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Community Says</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"HustlersPortal helped me find the perfect graphic designer for my startup. The quality of work was exceptional and the prices were very reasonable."</p>
+                        <div class="testimonial-author">
+                            <img src="images/lindo.jpg" alt="Client">
+                            <div class="author-info">
+                                <h4>Lindo Khumalo</h4>
+                                <p>Small Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"Since listing my catering business on HustlersPortal, I've seen a 60% increase in customers. It's the best platform for small businesses like mine."</p>
+                        <div class="testimonial-author">
+                            <img src="images/zinhle.jpg" alt="Client">
+                            <div class="author-info">
+                                <h4>Zinhle Nhlapo</h4>
+                                <p>Catering Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="quote-icon">
+                            <i class="fas fa-quote-left"></i>
+                        </div>
+                        <p class="testimonial-text">"As a freelancer, HustlersPortal has connected me with amazing clients. The platform is easy to use and the support team is always helpful."</p>
+                        <div class="testimonial-author">
+                            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Client">
+                            <div class="author-info">
+                                <h4>Amahle Khumalo</h4>
+                                <p>Freelance Photographer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--CTA-->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Grow Your Business?</h2>
+                <p>Join hundreds of South African hustlers who are getting more customers every day</p>
+                <div class="cta-buttons">
+                    <a href="#" class="btn-register" id="ctaRegisterBtn">Register Your Business</a>
+                    <a href="#" class="btn-outline">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>HustlersPortal</h3>
+                    <p>Connecting communities with small businesses and freelancers across South Africa.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#businesses">Businesses</a></li>
+                        <li><a href="#freelancers">Freelancers</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Food & Dining</a></li>
+                        <li><a href="#">Beauty & Salon</a></li>
+                        <li><a href="#">Tech Services</a></li>
+                        <li><a href="#">Home Services</a></li>
+                        <li><a href="#">Creative Arts</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Us</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> info@hustlersportal.co.za</li>
+                        <li><i class="fas fa-phone"></i> +27 69 807 7866</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Mpumalanga, South Africa</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 HustlersPortal. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--Login Modal-->
+    <div class="modal" id="loginModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Login to Your Account</h2>
+            <form id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email</label>
+                    <input type="email" id="loginEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="loginPassword">Password</label>
+                    <input type="password" id="loginPassword" required>
+                </div>
+                <div class="form-options">
+                    <div class="remember-me">
+                        <input type="checkbox" id="rememberMe">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+                <button type="submit" class="btn-login-submit">Login</button>
+                <div class="form-footer">
+                    <p>Don't have an account? <a href="#" id="switchToRegister">Register</a></p>
+                </div>
+            </form>
+            <div class="social-login">
+                <p>Or login with</p>
+                <div class="social-buttons">
+                    <button class="btn-google"><i class="fab fa-google"></i> Google</button>
+                    <button class="btn-facebook"><i class="fab fa-facebook-f"></i> Facebook</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Registration Modal-->
+    <div class="modal" id="registerModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Create Your Account</h2>
+            <p class="modal-subtitle">Join our community of local hustlers</p>
+            <form id="registerForm">
+                <div class="form-group">
+                    <label for="registerName">Full Name</label>
+                    <input type="text" id="registerName" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerEmail">Email</label>
+                    <input type="email" id="registerEmail" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPhone">Phone Number</label>
+                    <input type="tel" id="registerPhone" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerPassword">Password</label>
+                    <input type="password" id="registerPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerConfirmPassword">Confirm Password</label>
+                    <input type="password" id="registerConfirmPassword" required>
+                </div>
+                <div class="form-group">
+                    <label for="registerType">I am a:</label>
+                    <select id="registerType" required>
+                        <option value="">Select account type</option>
+                        <option value="business">Business Owner</option>
+                        <option value="freelancer">Freelancer</option>
+                        <option value="customer">Customer</option>
+                    </select>
+                </div>
+                <div class="form-group terms">
+                    <input type="checkbox" id="acceptTerms" required>
+                    <label for="acceptTerms">I agree to the <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a></label>
+                </div>
+                <button type="submit" class="btn-register-submit">Create Account</button>
+                <div class="form-footer">
+                    <p>Already have an account? <a href="#" id="switchToLogin">Login</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--Demo Message-->
+    <div class="demo-message" id="demoMessage">
+        <div class="demo-content">
+            <h3>This is a Demo Site</h3>
+            <p>Thank you for your interest in HustlersPortal! This is just a demonstration of what our platform will be like and to win the FNB competition LOL!.</p>
+            <p>However, in the full version, you would now be redirected to your dashboard to complete your business profile.</p>
+            <button class="btn-continue" id="continueToDashboard">Continue to Dashboard</button>
+        </div>
+    </div>
+
+    <!--Business Page (hidden by default)-->
+    <div class="business-detail-page" id="businessDetailPage">
+        <div class="detail-header">
+            <button class="back-button" id="backButton"><i class="fas fa-arrow-left"></i> Back</button>
+            <h2>Business Details</h2>
+        </div>
+        <div class="detail-content">
+            <div class="detail-main">
+                <div class="business-hero">
+                    <div class="business-gallery">
+                        <div class="main-image">
+                            <img src="images/res1.jpg" alt="Business">
+                        </div>
+                        <div class="thumbnail-grid">
+                            <div class="thumbnail"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Thumbnail"></div>
+                            <div class="thumbnail"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Thumbnail"></div>
+                            <div class="thumbnail"><img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Thumbnail"></div>
+                            <div class="thumbnail"><img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=200&q=80" alt="Thumbnail"></div>
+                        </div>
+                    </div>
+                    <div class="business-info">
+                        <h1>Njabulo's Kitchen</h1>
+                        <div class="rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                                <span>4.8 (124 reviews)</span>
+                            </div>
+                        </div>
+                        <div class="location">
+                            <i class="fas fa-map-marker-alt"></i> Embalenhle, Mpumalanga
+                        </div>
+                        <div class="contact">
+                            <i class="fas fa-phone"></i> +27 78 123 4567
+                        </div>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        </div>
+                        <div class="tags">
+                            <span>Food</span>
+                            <span>Delivery</span>
+                            <span>Traditional</span>
+                            <span>Catering</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="business-description">
+                    <h3>About Njabulo's Kitchen</h3>
+                    <p>Njabulo's Kitchen brings delicious South African home-cooked meals straight to your door. Founded in 2024 by Njabulo Malala, our mission is to share the taste of home with busy professionals, students, and anyone who loves good food.</p>
+                    <p>We specialize in traditional and fast food dishes, and our famous chakalaka and tasty spices. All meals are prepared with love and the freshest ingredients sourced from local markets.</p>
+                    
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li>Daily meal deliveries (order by 10am for same-day delivery)</li>
+                        <li>Weekly meal plans with discounted rates</li>
+                        <li>Catering for events and special occasions</li>
+                        <li>Cooking classes</li>
+                    </ul>
+                    
+                    <h3>Business Hours</h3>
+                    <div class="business-hours">
+                        <div class="hour-row">
+                            <span>Monday - Friday</span>
+                            <span>7:00 AM - 8:00 PM</span>
+                        </div>
+                        <div class="hour-row">
+                            <span>Saturday</span>
+                            <span>9:00 AM - 6:00 PM</span>
+                        </div>
+                        <div class="hour-row">
+                            <span>Sunday</span>
+                            <span>10:00 AM - 3:00 PM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="business-reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="images/thokozane.jpg" alt="Reviewer">
+                            <div class="reviewer-info">
+                                <h4>Thokozane N.</h4>
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <span>2 weeks ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>The best food in Emba! I order from Njabulo's Kitchen at least twice a week. Delivery is always on time and the portions are generous.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="review-card">
+                        <div class="review-header">
+                            <img src="images/caiphus.jpg" alt="Reviewer">
+                            <div class="reviewer-info">
+                                <h4>Caiphus M.</h4>
+                                <div class="review-rating">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="far fa-star"></i>
+                                    <span>1 month ago</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="review-content">
+                            <p>Used Njabulo's Kitchen to cater my birthday party. Everyone loved the food! The only reason I'm not giving 5 stars is that one dish arrived slightly cold, but the taste was still excellent.</p>
+                        </div>
+                    </div>
+                    
+                    <button class="btn-leave-review">Leave a Review</button>
+                </div>
+            </div>
+            
+            <div class="detail-sidebar">
+                <div class="sidebar-card">
+                    <h3>Contact Business</h3>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Your Phone">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn-send-message">Send Message</button>
+                    </form>
+                </div>
+                
+                <div class="sidebar-card">
+                    <h3>Location</h3>
+                    <div class="mini-map" id="miniMap"></div>
+                    <p>11470 Jomo Kenyatta Street, Embalenhle, Mpumalanga</p>
+                    <button class="btn-get-directions"><i class="fas fa-directions"></i> Get Directions</button>
+                </div>
+                
+                <div class="sidebar-card">
+                    <h3>Similar Businesses</h3>
+                    <div class="similar-business">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Business">
+                        <div class="similar-info">
+                            <h4>Taste of Home</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <p>Sandton</p>
+                        </div>
+                    </div>
+                    
+                    <div class="similar-business">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80" alt="Business">
+                        <div class="similar-info">
+                            <h4>Durban Spice</h4>
+                            <div class="rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <p>Rosebank</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Dashboard (hidden by default) -->
+    <div class="dashboard" id="dashboard">
+        <div class="dashboard-sidebar">
+            <div class="sidebar-header">
+                <div class="user-profile">
+                    <img src="images/tk.png" alt="User">
+                    <h3>Thokozane Nxumalo</h3>
+                    <p>Freelance Web Developer</p>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <a href="#" class="active"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
+                <a href="#"><i class="fas fa-store"></i> Business Profile</a>
+                <a href="#"><i class="fas fa-chart-line"></i> Analytics</a>
+                <a href="#"><i class="fas fa-envelope"></i> Messages</a>
+                <a href="#"><i class="fas fa-calendar-alt"></i> Bookings</a>
+                <a href="#"><i class="fas fa-cog"></i> Settings</a>
+                <a href="#"><i class="fas fa-question-circle"></i> Help</a>
+                <a href="#"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </nav>
+        </div>
+        <div class="dashboard-content">
+            <div class="dashboard-header">
+                <h2>Business Dashboard</h2>
+                <div class="header-actions">
+                    <button class="btn-upgrade">Upgrade Plan</button>
+                    <button class="btn-notification"><i class="fas fa-bell"></i></button>
+                </div>
+            </div>
+            
+            <div class="stats-cards">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>1,245</h3>
+                        <p>Profile Views</p>
+                    </div>
+                    <div class="stat-trend up">
+                        <i class="fas fa-arrow-up"></i> 12%
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-phone-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>86</h3>
+                        <p>Contact Clicks</p>
+                    </div>
+                    <div class="stat-trend up">
+                        <i class="fas fa-arrow-up"></i> 5%
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>4.8</h3>
+                        <p>Average Rating</p>
+                    </div>
+                    <div class="stat-trend down">
+                        <i class="fas fa-arrow-down"></i> 0.2%
+                    </div>
+                </div>
+                
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-share-alt"></i>
+                    </div>
+                    <div class="stat-info">
+                        <h3>32</h3>
+                        <p>Social Shares</p>
+                    </div>
+                    <div class="stat-trend up">
+                        <i class="fas fa-arrow-up"></i> 25%
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dashboard-row">
+                <div class="analytics-card">
+                    <div class="card-header">
+                        <h3>Profile Views</h3>
+                        <select>
+                            <option>Last 7 Days</option>
+                            <option>Last 30 Days</option>
+                            <option>Last 90 Days</option>
+                        </select>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="viewsChart"></canvas>
+                    </div>
+                </div>
+                
+                <div class="analytics-card">
+                    <div class="card-header">
+                        <h3>Customer Engagement</h3>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="engagementChart"></canvas>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="dashboard-row">
+                <div class="recent-reviews">
+                    <div class="card-header">
+                        <h3>Recent Reviews</h3>
+                        <a href="#" class="view-all">View All</a>
+                    </div>
+                    <div class="reviews-list">
+                        <div class="review-item">
+                            <div class="reviewer">
+                                <img src="images/njabulo.jpg" alt="Reviewer">
+                                <div class="reviewer-info">
+                                    <h4>Njabulo M.</h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-content">
+                                <p>"The best web developer around Secunda."</p>
+                            </div>
+                            <div class="review-actions">
+                                <button class="btn-reply">Reply</button>
+                                <span class="review-date">2 days ago</span>
+                            </div>
+                        </div>
+                        
+                        <div class="review-item">
+                            <div class="reviewer">
+                                <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Reviewer">
+                                <div class="reviewer-info">
+                                    <h4>Sipho K.</h4>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="far fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="review-content">
+                                <p>"After joining the FNB App Academy, he was never the same. He became a best."</p>
+                            </div>
+                            <div class="review-actions">
+                                <button class="btn-reply">Reply</button>
+                                <span class="review-date">1 week ago</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quick-actions">
+                    <div class="card-header">
+                        <h3>Quick Actions</h3>
+                    </div>
+                    <div class="actions-grid">
+                        <a href="#" class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-edit"></i>
+                            </div>
+                            <h4>Update Profile</h4>
+                            <p>Edit your business information</p>
+                        </a>
+                        
+                        <a href="#" class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-camera"></i>
+                            </div>
+                            <h4>Add Photos</h4>
+                            <p>Upload new images</p>
+                        </a>
+                        
+                        <a href="#" class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-video"></i>
+                            </div>
+                            <h4>Add Video</h4>
+                            <p>Showcase your business</p>
+                        </a>
+                        
+                        <a href="#" class="action-card">
+                            <div class="action-icon">
+                                <i class="fas fa-percentage"></i>
+                            </div>
+                            <h4>Create Offer</h4>
+                            <p>Attract more customers</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
